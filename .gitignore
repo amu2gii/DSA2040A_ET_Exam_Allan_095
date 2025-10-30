@@ -1,2 +1,21 @@
 data/raw_data.csv
 data/incremental_data.csv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: exclude raw data if sensitive/large (but keep if required)
+# data/raw/
+
+# Include loaded/ if you WANT to commit .db/.parquet
+# If you DON'T want to commit them, uncomment below:
+# data/loaded/*.db
+# data/loaded/*.parquet
